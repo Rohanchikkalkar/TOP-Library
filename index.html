@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Library App</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="heading">Library</div>
+        <button class="create-book">Create Book</button>
+      </div>
+      <div class="book-list"></div>
+      <!-- Dialog /Modal -->
+      <dialog>
+        <form method="dialog">
+          <input type="text" name="title" placeholder="title" class="title" />
+          <input type="text" name="name" placeholder="name" class="name" />
+          <input type="number" name="pages" placeholder="pages" class="pages" />
+          <p>
+            Have you read the book
+            <input type="checkbox" name="read" class="read" />
+          </p>
+          <button type="submit" class="add-book">Add Book</button>
+        </form>
+      </dialog>
+    </div>
+  </body>
+</html>
